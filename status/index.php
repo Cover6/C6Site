@@ -21,6 +21,7 @@
                     <li class="nav-item an-links" role="presentation"><a class="nav-link" href="../index.html">Home </a></li>
                     <li class="nav-item an-links" role="presentation"><a class="nav-link active" href="#">Status </a></li>
                     <li class="nav-item an-links" role="presentation"><a class="nav-link" href="../purchase.html">Purchase </a></li>
+                    <li class="nav-item an-links" role="presentation"><a class="nav-link" href="../brands.html">Brands</a></li>
                     <li class="dropdown nav-item an-links"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#">More </a>
                         <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="../tos.html">Terms of Service</a><a class="dropdown-item" role="presentation" href="https://discord.gg/tGhA8pC" target="_blank">Discord </a></div>
                     </li>
@@ -145,12 +146,16 @@
         </section>
     </section>
     <footer class="footer-basic">
-        <div class="social"><a href="https://www.youtube.com/channel/UC33B7tlCJftRLNcG7ZgNCNw"><i class="fa fa-youtube-play" style="color:#bb0000;"></i></a><a href="https://twitter.com/Archonetwork" target="_blank"><i class="fa fa-twitter" style="color:#00aced;"></i></a>
+        <div class="social">
+            <a href="#"><i class="fa fa-youtube-play" style="color:#bb0000;"></i></a>
+            <a href="https://twitter.com/Archonetwork" target="_blank"><i class="icon fa fa-twitter" style="color:#00aced;"></i></a>
+        </div>
         </div>
         <ul class="list-inline">
             <li class="list-inline-item"><a href="../index.html">Home</a></li>
             <li class="list-inline-item"><a href="#">Server Status</a></li>
             <li class="list-inline-item"><a href="../purchase.html">Purchase </a></li>
+            <li class="list-inline-item"><a href="../brands.html">Brenads </a></li>
             <li class="list-inline-item"><a href="../tos.html">Terms of Service</a></li>
             <li class="list-inline-item"><a href="https://discord.gg/tGhA8pC" target="_blank">Discord </a></li>
         </ul>
