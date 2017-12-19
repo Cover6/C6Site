@@ -49,23 +49,83 @@
                         <tbody>
                             <tr class="an-trow">
                                 <td><strong>1</strong> </td>
+                                <td>[2.38] Archon Network Any</td>
+                                <td>
+                                    <div class="online">Online</div>                                 </td>
+                                <td>12006 </td>
+                                <td>Any </td>
+                                <td>8 </td>
+                            </tr>
+                            <tr class="an-trow">
+                                <td><strong>2</strong> </td>
+                                <td>[2.38] Archon Network Neo</td>
+                                <td>
+                                    <div class="online">Online</div>                                 </td>
+                                <td>12005 </td>
+                                <td>Neo </td>
+                                <td>8 </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+            <section>
+                <div class="container" style="background-color:#eeeeee;">
+                    <h1 class="text-uppercase text-center" style="font-family:'Open Sans Condensed', sans-serif;"><strong>2.37 Servers</strong></h1>
+                    <table class="table table-responsive-md">
+                        <thead class="an-thead">
+                            <tr>
+                                <th># </th>
+                                <th><i class="fa fa-user-o" style="font-size:17px;"></i><span> </span>Name </th>
+                                <th><i class="fa fa-signal" style="font-size:17px;"></i><span> </span>Status </th>
+                                <th><i class="fa fa-info" style="font-size:17px;"></i><span> </span>Port </th>
+                                <th><i class="fa fa-globe" style="font-size:17px;"></i><span> </span>Map </th>
+                                <th><i class="fa fa-group" style="font-size:17px;"></i><span> </span>Slots </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="an-trow">
+                                <td><strong>1</strong> </td>
+                                <td>[2.37] Archon Network Any</td>
+                                <td>
+                                    <div class="online">Online</div>                                </td>
+                                <td>12009</td>
+                                <td>Any </td>
+                                <td>10 </td>
+                            </tr>
+                            <tr class="an-trow">
+                                <td><strong>2</strong> </td>
+                                <td>[2.37] Archon Network Any</td>
+                                <td>
+                                    <div class="online">Online</div>                                </td>
+                                <td>12010 </td>
+                                <td>Any </td>
+                                <td>10 </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+            <section>
+                <div class="container" style="background-color:#eeeeee;">
+                    <h1 class="text-uppercase text-center" style="font-family:'Open Sans Condensed', sans-serif;"><strong>Other Servers</strong></h1>
+                    <table class="table table-responsive-md">
+                        <thead class="an-thead">
+                            <tr>
+                                <th># </th>
+                                <th><i class="fa fa-user-o" style="font-size:17px;"></i><span> </span>Name </th>
+                                <th><i class="fa fa-signal" style="font-size:17px;"></i><span> </span>Status </th>
+                                <th><i class="fa fa-info" style="font-size:17px;"></i><span> </span>Port </th>
+                                <th><i class="fa fa-globe" style="font-size:17px;"></i><span> </span>Map </th>
+                                <th><i class="fa fa-group" style="font-size:17px;"></i><span> </span>Slots </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="an-trow">
+                                <td><strong>1</strong> </td>
                                 <td>[2.38] JDPS</td>
                                 <td>
-                                    <?php $offline = 'Offline';
-								 $online = 'Online';
-								 $site = 'ror.archonetwork.net';
-                                 $port = '12014';
-                                 $check = fsockopen( $site, $port, $errno, $errstr, 6 );
-                                         if ( ! $check ) {
-                                           if($debug){
-                                           } 
-                                   echo '<div class="offline">', $offline, '</div>';     
-                                       } 
-                                      else { 
-                                  echo '<div class="online">', $online, '</div>';
-                                                        }
-                                    ?>
-                                </td>
+                                    <div class="online">Online</div>                                </td>
                                 <td>12014 </td>
                                 <td>Any </td>
                                 <td>Private </td>
@@ -74,21 +134,7 @@
                                 <td><strong>2</strong> </td>
                                 <td>[2.38] WISD</td>
                                 <td>
-                                    <?php $offline = 'Offline';
-								 $online = 'Online';
-								 $site = 'ror.archonetwork.net';
-                                 $port = '12013';
-                                 $check = fsockopen( $site, $port, $errno, $errstr, 6 );
-                                         if ( ! $check ) {
-                                           if($debug){
-                                           } 
-                                   echo '<div class="offline">', $offline, '</div>';     
-                                       } 
-                                      else { 
-                                  echo '<div class="online">', $online, '</div>';
-                                                        }
-                                    ?>
-                                </td>
+                                    <div class="online">Online</div>                                </td>
                                 <td>12013 </td>
                                 <td>Any </td>
                                 <td>Private </td>
@@ -97,21 +143,7 @@
                                 <td><strong>3</strong> </td>
                                 <td>[2.38] Mikey</td>
                                 <td>
-                                    <?php $offline = 'Offline';
-								 $online = 'Online';
-								 $site = 'ror.archonetwork.net';
-                                 $port = '12015';
-                                 $check = fsockopen( $site, $port, $errno, $errstr, 6 );
-                                         if ( ! $check ) {
-                                           if($debug){
-                                           } 
-                                   echo '<div class="offline">', $offline, '</div>';     
-                                       } 
-                                      else { 
-                                  echo '<div class="online">', $online, '</div>';
-                                                        }
-                                    ?>
-                                </td>
+                                    <div class="online">Online</div>                                </td>
                                 <td>12015 </td>
                                 <td>Any </td>
                                 <td>Private </td>
@@ -120,21 +152,7 @@
                                 <td><strong>4</strong> </td>
                                 <td>[2.37] Ross</td>
                                 <td>
-                                    <?php $offline = 'Offline';
-								 $online = 'Online';
-								 $site = 'ror.archonetwork.net';
-                                 $port = '12016';
-                                 $check = fsockopen( $site, $port, $errno, $errstr, 6 );
-                                         if ( ! $check ) {
-                                           if($debug){
-                                           } 
-                                   echo '<div class="offline">', $offline, '</div>';     
-                                       } 
-                                      else { 
-                                  echo '<div class="online">', $online, '</div>';
-                                                        }
-                                    ?>
-                                </td>
+                                    <div class="online">Online</div>                                </td>
                                 <td>12016 </td>
                                 <td>Any </td>
                                 <td>Private </td>
@@ -162,7 +180,7 @@
         <p class="copyright">Cover6 © 2017</p>
     </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/js/bootstrap.bundle.min.js"></script>
     <script src="../assets/js/script.min.js"></script>
 </body>
 
