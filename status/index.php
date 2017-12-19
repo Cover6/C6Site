@@ -125,7 +125,14 @@
                                 <td><strong>1</strong> </td>
                                 <td>[2.38] JDPS</td>
                                 <td>
-                                    <div class="online">Online</div>                                </td>
+                                    <div class="online">
+                                        <?php    
+                                            getlink(
+                                                $port => 12014
+                                            )
+                                        ?>
+                                    </div>                                
+                                </td>
                                 <td>12014 </td>
                                 <td>Any </td>
                                 <td>Private </td>
