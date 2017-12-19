@@ -51,7 +51,14 @@
                                 <td><strong>1</strong> </td>
                                 <td>[2.38] Archon Network Any</td>
                                 <td>
-                                    <div class="online">Online</div>                                 </td>
+                                    <div class="online">
+                                        <?php
+                                            getlink(
+                                                $port -> {12006}
+                                            )
+                                        ?>
+                                    </div>                                 
+                                </td>
                                 <td>12006 </td>
                                 <td>Any </td>
                                 <td>8 </td>
@@ -60,7 +67,14 @@
                                 <td><strong>2</strong> </td>
                                 <td>[2.38] Archon Network Neo</td>
                                 <td>
-                                    <div class="online">Online</div>                                 </td>
+                                    <div class="online">
+                                        <?php
+                                            getlink(
+                                                $port -> {12005}
+                                            )
+                                        ?>
+                                    </div>                                 
+                                </td>
                                 <td>12005 </td>
                                 <td>Neo </td>
                                 <td>8 </td>
@@ -88,7 +102,14 @@
                                 <td><strong>1</strong> </td>
                                 <td>[2.37] Archon Network Any</td>
                                 <td>
-                                    <div class="online">Online</div>                                </td>
+                                    <div class="online">
+                                        <?php
+                                            getlink(
+                                                $port -> {12009}
+                                            )
+                                        ?>
+                                    </div>                                
+                                </td>
                                 <td>12009</td>
                                 <td>Any </td>
                                 <td>10 </td>
@@ -97,7 +118,14 @@
                                 <td><strong>2</strong> </td>
                                 <td>[2.37] Archon Network Any</td>
                                 <td>
-                                    <div class="online">Online</div>                                </td>
+                                    <div class="online">
+                                        <?php
+                                            getlink(
+                                                $port -> {12010}
+                                            )
+                                        ?>
+                                    </div>                                
+                                </td>
                                 <td>12010 </td>
                                 <td>Any </td>
                                 <td>10 </td>
@@ -128,7 +156,7 @@
                                     <div class="online">
                                         <?php    
                                             getlink(
-                                                $port => 12014
+                                                $port -> {12014}
                                             )
                                         ?>
                                     </div>                                
@@ -141,7 +169,14 @@
                                 <td><strong>2</strong> </td>
                                 <td>[2.38] WISD</td>
                                 <td>
-                                    <div class="online">Online</div>                                </td>
+                                    <div class="online">
+                                        <?php
+                                            getlink(
+                                                $port -> {12013}
+                                            )
+                                        ?>
+                                    </div>
+                                </td>
                                 <td>12013 </td>
                                 <td>Any </td>
                                 <td>Private </td>
@@ -150,7 +185,14 @@
                                 <td><strong>3</strong> </td>
                                 <td>[2.38] Mikey</td>
                                 <td>
-                                    <div class="online">Online</div>                                </td>
+                                    <div class="online">
+                                        <?php
+                                            getlink(
+                                                $port -> {12015}
+                                            )
+                                        ?>
+                                    </div>                             
+                                </td>
                                 <td>12015 </td>
                                 <td>Any </td>
                                 <td>Private </td>
@@ -159,7 +201,14 @@
                                 <td><strong>4</strong> </td>
                                 <td>[2.37] Ross</td>
                                 <td>
-                                    <div class="online">Online</div>                                </td>
+                                    <div class="online">
+                                        <?php
+                                            getlink(
+                                                $port -> {12016}
+                                            )
+                                        ?>
+                                    </div>                            
+                                </td>
                                 <td>12016 </td>
                                 <td>Any </td>
                                 <td>Private </td>
