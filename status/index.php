@@ -1,3 +1,10 @@
+<?php
+
+// Includes Functions
+include 'functions.php';
+
+?>
+
 <html>
 
 <head>
@@ -54,7 +61,7 @@
                                     <div class="online">
                                         <?php
                                             getlink(
-                                                $port -> {12006}
+                                                $port = 12006
                                             )
                                         ?>
                                     </div>                                 
@@ -70,7 +77,7 @@
                                     <div class="online">
                                         <?php
                                             getlink(
-                                                $port -> {12005}
+                                                $port = 12005
                                             )
                                         ?>
                                     </div>                                 
@@ -105,7 +112,7 @@
                                     <div class="online">
                                         <?php
                                             getlink(
-                                                $port -> {12009}
+                                                $port = 12009
                                             )
                                         ?>
                                     </div>                                
@@ -121,7 +128,7 @@
                                     <div class="online">
                                         <?php
                                             getlink(
-                                                $port -> {12010}
+                                                $port = 12010
                                             )
                                         ?>
                                     </div>                                
@@ -156,7 +163,7 @@
                                     <div class="online">
                                         <?php    
                                             getlink(
-                                                $port -> {12014}
+                                                $port = 12014
                                             )
                                         ?>
                                     </div>                                
@@ -172,7 +179,7 @@
                                     <div class="online">
                                         <?php
                                             getlink(
-                                                $port -> {12013}
+                                                $port = 12013
                                             )
                                         ?>
                                     </div>
@@ -188,7 +195,7 @@
                                     <div class="online">
                                         <?php
                                             getlink(
-                                                $port -> {12015}
+                                                $port = 12015
                                             )
                                         ?>
                                     </div>                             
@@ -204,7 +211,7 @@
                                     <div class="online">
                                         <?php
                                             getlink(
-                                                $port -> {12016}
+                                                $port = 12016
                                             )
                                         ?>
                                     </div>                            
@@ -221,15 +228,19 @@
     </section>
     <footer class="footer-basic">
         <div class="social">
-            <a href="#"><i class="fa fa-youtube-play" style="color:#bb0000;"></i></a>
-            <a href="https://twitter.com/Archonetwork" target="_blank"><i class="icon fa fa-twitter" style="color:#00aced;"></i></a>
+            <a href="#">
+            	<i class="fa fa-youtube-play" style="color:#bb0000;"></i>
+            </a>
+            <a href="https://twitter.com/Archonetwork" target="_blank">
+            	<i class="fa fa-twitter" style="color:#00aced;"></i>
+            </a>
         </div>
         </div>
         <ul class="list-inline">
             <li class="list-inline-item"><a href="../index.html">Home</a></li>
             <li class="list-inline-item"><a href="#">Server Status</a></li>
             <li class="list-inline-item"><a href="../purchase.html">Purchase </a></li>
-            <li class="list-inline-item"><a href="../brands.html">Brenads </a></li>
+            <li class="list-inline-item"><a href="../brands.html">Brands </a></li>
             <li class="list-inline-item"><a href="../tos.html">Terms of Service</a></li>
             <li class="list-inline-item"><a href="https://discord.gg/tGhA8pC" target="_blank">Discord </a></li>
         </ul>
