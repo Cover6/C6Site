@@ -4,7 +4,7 @@
 
 ======= To Do =======
 - Finish Brands page
-- List all connections on the status page
+- ~~List all connections on the status page~~
 - Give more elegant feel & look to buttons
 - Blend footer.
 - Update logo to feel of website.
