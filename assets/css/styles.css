@@ -27,6 +27,13 @@ p {
     grid-gap: 20px;
 }
 
+.tosgrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
 .grid div { 
     border-radius: 0.5em;
     padding: 2em;
@@ -45,4 +52,37 @@ p {
     color: rgb(10, 169, 231);
     font-size: 70px;
     text-align: center;
+}
+
+.containera {
+	margin-right: auto;
+    margin-left: auto;
+	border: 1px solid #D8D8D8;
+	padding:20px;
+	width:auto;
+}
+
+#subject {
+	color:#2E2C2E;
+	text-align:center;
+}
+
+#toshr {
+	width:35%;
+	color: rgb(245, 245, 245);
+}
+
+.backbutton {
+	 border-radius: 0.5em;
+    padding: 2em;
+    border: 1px solid transparent;
+    -webkit-box-shadow: 0px 0px 24px -4px rgba(43,43,43,0.77);
+    -moz-box-shadow: 0px 0px 24px -4px rgba(43,43,43,0.77);
+    box-shadow: 0px 0px 20px -5px rgba(43,43,43,0.77);
+}
+
+.backbutton:hover {
+	border: 1px solid rgb(10, 169, 231);
+    box-shadow: 0px 0px 20px -5px rgba(10,169,231,0.77);
+	cursor:pointer;
 }
