@@ -6,6 +6,7 @@ body {
 
 h1 {
     font-family: 'Open Sans', sans-serif;
+    font-size: 45px;
 }
 
 p {
@@ -36,22 +37,39 @@ p {
 
 .grid div { 
     border-radius: 0.5em;
-    padding: 2em;
+    max-height: 4em;
+    max-width: 4em;
+    padding: 32px;
     border: 1px solid transparent;
-    -webkit-box-shadow: 0px 0px 24px -4px rgba(43,43,43,0.77);
-    -moz-box-shadow: 0px 0px 24px -4px rgba(43,43,43,0.77);
-    box-shadow: 0px 0px 20px -5px rgba(43,43,43,0.77);
+    -webkit-box-shadow: 0px 0px 20px -3px rgba(43,43,43,0.28);
+    -moz-box-shadow: 0px 0px 20px -3px rgba(43,43,43,0.28);
+    box-shadow: 0px 0px 20px -3px rgba(43,43,43,0.28);
 }
 
 .grid div:hover {
-    border: 1px solid rgb(10, 169, 231);
-    box-shadow: 0px 0px 20px -5px rgba(10,169,231,0.77);
+    border: 1px solid rgb(85, 0, 116);
+    box-shadow: 0px 0px 20px -5px rgba(85,0,116,0.77);
+}
+
+.grid div:hover > i {
+    transition: 1s;
+    display: none;
 }
 
 .grid i {
-    color: rgb(10, 169, 231);
+    color: rgb(85, 0, 116);
     font-size: 70px;
     text-align: center;
+}
+
+.grid h3 {
+    display: none;
+}
+
+.grid div:hover > h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .containera {
