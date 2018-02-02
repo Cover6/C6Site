@@ -1,0 +1,64 @@
+.social-button {
+	background-position: 25px 0px;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    display: inline-block;
+    height: 50px;
+	line-height: 50px;
+    text-align: left;
+    text-decoration: none;
+    text-transform: uppercase;
+    vertical-align: middle;
+    width: 100%;
+	border-radius: 3px;
+    margin: 10px auto;
+    outline: rgb(255, 255, 255) none 0px;
+    padding-left: 20%;
+    background-color: black;
+    transition: all 0.2s cubic-bezier(0.72, 0.01, 0.56, 1) 0s;
+	-webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+#discord {
+    background: rgb(255, 255, 255) url('https://discordapp.com/assets/f8389ca1a741a115313bede9ac02e2c0.svg') no-repeat scroll 5px 0px / 30px 50px padding-box border-box;
+    border: 1px solid rgb(113, 136, 219);
+}
+
+#discord:hover {
+	border-color: rgb(113, 136, 219);
+	background: rgb(113, 136, 219) url('https://discordapp.com/assets/1c8a54f25d101bdc607cec7228247a9a.svg') no-repeat scroll 5px 0px / 30px 50px padding-box border-box;
+	-webkit-transition: all .8s ease-out;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease-out;
+}
+
+#discord span {
+	box-sizing: border-box;
+    color: rgb(113, 136, 219);
+    cursor: pointer;
+    text-align: center;
+    text-transform: uppercase;
+    border: 0px none rgb(255, 255, 255);
+    outline: rgb(255, 255, 255) none 0px;
+	-webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+#discord:hover span {
+	color: #FFF;
+	-webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
